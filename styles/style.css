@@ -1,6 +1,53 @@
 /* All common shared code is here */
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato", sans-serif;
 }
 /* All common shared code is here */
+
+/* Header section style starts here */
+header {
+  /* height: 50vh; */
+  display: flex;
+  justify-content: space-around;
+  background: rgba(229, 84, 115, 0.1);
+  /* align-items: center; */
+  /* width: 1920px;
+  height: 850px; */
+}
+
+.banner-content {
+  margin: 197px 0px 147px 240px;
+}
+.banner-title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+}
+.banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 32px 0px;
+  margin-right: 100px;
+}
+.banner-btn {
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 43px;
+  border:none;
+}
+
+.banner-flower-img {
+  margin: 50px 240px 0px 97px;
+}
+/* Header section style ends here */
+
+/* Main section style starts here */
+
+/* Main section ends here */
