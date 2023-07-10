@@ -4,6 +4,23 @@
   padding: 0px;
   font-family: "Lato", sans-serif;
 }
+.span {
+  color: #e55473;
+}
+.btn {
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 43px;
+  border: none;
+}
+.center {
+  width: 1440px;
+  margin: 0 auto;
+  /* border: 2px solid; */
+}
 /* All common shared code is here */
 
 /* Header section style starts here */
@@ -33,21 +50,140 @@ header {
   margin: 32px 0px;
   margin-right: 100px;
 }
-.banner-btn {
-  border-radius: 8px;
-  background: #e55473;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 700;
-  padding: 20px 43px;
-  border:none;
-}
-
 .banner-flower-img {
   margin: 50px 240px 0px 97px;
 }
 /* Header section style ends here */
 
 /* Main section style starts here */
+/* Advertisement section style starts here */
+.advertisement-section {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  background: rgba(229, 84, 115, 0.1);
+  background: rgba(229, 84, 115, 0.05);
+}
+.advertisement-content {
+  margin: 230px 0px 162px 395px;
+  text-align: center;
+}
+.advertisement-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.advertisement-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 32px 0px;
+  margin-right: 25px;
+}
+.advertisement-flower-img {
+  margin: 100px 429px 100px 186px;
+  width: 400px;
+}
+/* Advertisement section style ends here */
+
+/* Instagram section style starts here */
+.instagram-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 128px;
+  margin-top: 128px;
+}
+.instagram-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.instagram-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 594px;
+  margin-bottom: 24px;
+}
+.instagram-img-section {
+  display: flex;
+  gap: 24px;
+}
+/* Instagram section style ends here */
+
+/* Subscribe section style starts here */
+.subscribe-section {
+  background-image: url("../images/Rectangle\ 9.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 120px 0px;
+  border-radius: 8px;
+  gap: 16px;
+}
+.subscribe-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.subscribe-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+form input[type="email"] {
+  border-radius: 8px;
+  background: #fff;
+  padding: 23px 0px 23px 22px;
+  width: 700px;
+  border: none;
+  margin: 16px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Subscribe section style ends here */
 
 /* Main section ends here */
+
+/* Footer section style starts here */
+.footer-container {
+  padding: 128px;
+  margin-top: 128px;
+  background: #111010;
+}
+.footer-title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.copyright-warning {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* Footer section style ends here */
