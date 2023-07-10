@@ -56,13 +56,91 @@ header {
 /* Header section style ends here */
 
 /* Main section style starts here */
+/* Shopping section style starts here */
+.featured-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 178px;
+}
+.featured-img {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.featured-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.featured-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.featured-img div a {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+}
+.featured-img1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  height: 400px;
+  width: 290px;
+  padding: 110px 76px 0px 76px;
+  margin-bottom: 32px;
+}
+.featured-img2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  height: 400px;
+  width: 290px;
+  padding: 110px 76px 0px 76px;
+  margin-bottom: 32px;
+}
+.featured-img3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  height: 400px;
+  width: 290px;
+  padding: 110px 76px 0px 76px;
+  margin-bottom: 32px;
+}
+/* Shopping section style ends here */
+
+/* Service section style starts here */
+.service-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 86px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  width: 1205px;
+  margin-top: 128px;
+}
+.service-section div {
+  text-align: center;
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+}
+/* Service section style ends here */
 /* Advertisement section style starts here */
 .advertisement-section {
-  margin-top: 1rem;
   display: flex;
   justify-content: space-around;
   background: rgba(229, 84, 115, 0.1);
   background: rgba(229, 84, 115, 0.05);
+  margin-top: 125px;
+  text-align: center;
 }
 .advertisement-content {
   margin: 230px 0px 162px 395px;
