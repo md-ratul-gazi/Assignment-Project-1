@@ -16,30 +16,33 @@
   padding: 20px 43px;
   border: none;
 }
+.btn:hover {
+  box-shadow: 1px 1px 10px 1px rgba(13, 13, 13, 0.487);
+}
 .center {
   width: 1440px;
   margin: 0 auto;
-  /* border: 2px solid; */
+}
+a {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
 }
 /* All common shared code is here */
 
 /* Header section style starts here */
 header {
-  /* height: 50vh; */
   display: flex;
   justify-content: space-around;
   background: rgba(229, 84, 115, 0.1);
-  /* align-items: center; */
-  /* width: 1920px;
-  height: 850px; */
 }
-
 .banner-content {
   margin: 197px 0px 147px 240px;
 }
 .banner-title {
   color: #272727;
-  font-size: 80px;
+  font-size: 78px;
   font-weight: 800;
 }
 .banner-description {
@@ -56,7 +59,7 @@ header {
 /* Header section style ends here */
 
 /* Main section style starts here */
-/* Shopping section style starts here */
+/* Featured section style starts here */
 .featured-section {
   display: flex;
   flex-direction: column;
@@ -83,12 +86,6 @@ header {
   font-weight: 400;
   line-height: 30px;
 }
-.featured-img div a {
-  color: #272727;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 35px;
-}
 .featured-img1 {
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
@@ -113,7 +110,7 @@ header {
   padding: 110px 76px 0px 76px;
   margin-bottom: 32px;
 }
-/* Shopping section style ends here */
+/* Featured section style ends here */
 
 /* Service section style starts here */
 .service-section {
@@ -133,6 +130,7 @@ header {
   line-height: 35px;
 }
 /* Service section style ends here */
+
 /* Advertisement section style starts here */
 .advertisement-section {
   display: flex;
@@ -141,10 +139,10 @@ header {
   background: rgba(229, 84, 115, 0.05);
   margin-top: 125px;
   text-align: center;
+  margin-bottom: 100px;
 }
 .advertisement-content {
   margin: 230px 0px 162px 395px;
-  text-align: center;
 }
 .advertisement-title {
   color: #272727;
@@ -161,9 +159,54 @@ header {
 }
 .advertisement-flower-img {
   margin: 100px 429px 100px 186px;
-  width: 400px;
+  width: 500px;
 }
 /* Advertisement section style ends here */
+
+/* Flowers collection style starts here */
+.flowers-collection {
+  text-align: center;
+}
+.flower-collection-title {
+  margin-bottom: 32px;
+  color: #272727;
+  font-size: 78px;
+  font-weight: 800;
+}
+.f-c-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 32px 0px;
+}
+.flower-collection-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.flower-images {
+  width: 350px;
+  height: 400px;
+  border-radius: 45px;
+}
+.flower-images:hover {
+  box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.538);
+}
+.flower-collection-title {
+  color: #272727;
+  font-size: 70px;
+  font-weight: 800;
+  margin-top: 40px;
+}
+.fc-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+/* Flowers collection style ends here */
 
 /* Instagram section style starts here */
 .instagram-section {
@@ -201,11 +244,10 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 120px 0px;
+  padding: 110px 0px;
   border-radius: 8px;
   gap: 16px;
 }
@@ -232,9 +274,7 @@ form input[type="email"] {
   font-size: 16px;
   font-weight: 400;
 }
-
 /* Subscribe section style ends here */
-
 /* Main section ends here */
 
 /* Footer section style starts here */
